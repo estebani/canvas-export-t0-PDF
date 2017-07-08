@@ -1,0 +1,116 @@
+
+.tabla-canvas{
+    padding:0;
+    text-align:left;
+    display: table;
+    border:solid red 1px;
+    width: 80%;
+    min-height: 400px;
+    margin:50px 50px;
+    resize:vertical;
+    word-wrap: break-word;
+    table-layout: fixed;
+
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    padding:0px;
+    line-height: 2.5;
+    vertical-align: top;
+    display: table-cell;
+    border:solid blue 1px;
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+    word-wrap: break-word;
+    resize:vertical;
+
+}
+.agregar-elemento{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -8px;
+    font-family: 'Glyphicons Halflings';
+    font-weight: 50;
+    font-size:20px;
+    color:#49a5aa;
+    vertical-align: middle;
+}
+.costos{
+    width: 50%;
+}
+.ingresos{
+    width: 50%;
+}
+.tituloseccion{
+    display: block;
+    text-align: center;
+    background: #C0FBB8;
+    border-bottom: dashed black 1px;
+}
+.caja-elemento{
+    margin: 6px;
+    background:rgba(173, 115, 115, 0.08);
+    position: relative;
+}
+.eliminarelem{
+    padding: 1px;
+    text-align: center;
+    color: red;
+    cursor:pointer;
+    background: #49a5aa;
+    content: '';
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    border-radius: 50%;
+    top: 0px;
+    right: 0px;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0px 0px 0px 2px rgba(73,165,170,0.37);
+}
+.elementos-seccion{
+    display: inline-block;
+}
+.titulotx{
+    line-height: 1.2;
+    width: 90%;
+    height: 20px;
+    display: table-cell;
+    overflow: hidden;
+    border:none;
+    margin:10px 0px 0px 0px;
+    background-color:#F993A1; 
+    -webkit-appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: none;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding:3px;
+    display: inline-block;
+    text-align: start;
+}
+.textos{
+    line-height: 1.2;
+    width: 100%;
+    height: 60px;
+    display: table-cell;
+    overflow: hidden;
+    margin:-5px 0px 0px 0px;
+    background-color:#C8B9FE; 
+    -webkit-appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: none;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border:none;
+    padding:2px;
+    display: inline-block;
+    text-align: start;
+}
